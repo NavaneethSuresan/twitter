@@ -27,7 +27,7 @@ CORS_ORIGIN_ALLOW_ALL=True
 CSRF_TRUSTED_ORIGINS=['http://127.0.0.1:8000']
 # Application definition
 INSTALLED_APPS = [
-    'corsheaders'
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -73,16 +73,16 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-DATABASES = {
-    'default': {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "d132ig7bbhuvf6",
-        "USER": "sijfyeawakyzte",
-        "HOST": "ec2-3-212-45-192.compute-1.amazonaws.com",
-        "PORT": 5432,
-        "PASSWORD": "e55ff84442b905f18f2b3aa88c1c9fbebe46e41cec4266abdb59eb6be5c9dd43",
-    }
-}
+# DATABASES = {
+#     'default': {
+#         "ENGINE": "django.db.backends.postgresql",
+#         "NAME": "d132ig7bbhuvf6",
+#         "USER": "sijfyeawakyzte",
+#         "HOST": "ec2-3-212-45-192.compute-1.amazonaws.com",
+#         "PORT": 5432,
+#         "PASSWORD": "e55ff84442b905f18f2b3aa88c1c9fbebe46e41cec4266abdb59eb6be5c9dd43",
+#     }
+# }
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 AUTH_PASSWORD_VALIDATORS = [
